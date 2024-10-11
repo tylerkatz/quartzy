@@ -1,0 +1,127 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Output of the go coverage tool
+*.out
+
+# Temporary files
+*.tmp
+
+# Dependency directories
+vendor/
+Godeps/
+
+# Go workspace file
+go.work
+
+# IDE/editor specific files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Compiled object files
+*.o
+*.a
+*.pyc
+*.pyo
+*.pyd
+
+# Test binary, coverage reports, and other test-related files
+*.test
+*.coverprofile
+*.cover.out
+
+# Build directories
+build/
+dist/
+
+# User-specific files
+*.swp
+*.swo
+*.swn
+*.bak
+*.old
+*.orig
+*.rej
+*.sublime-project
+*.sublime-workspace
+
+# Go modules
+/go/pkg/mod
+
+recordings/**.aiff
+recordings/**.wav
+recordings/**.mp3
+recordings/**.m4a
+
+# dependencies
+node_modules
+
+# sst
+.sst
+.build
+
+# opennext
+.open-next
+
+# misc
+.DS_Store
+
+# local env files
+*.env
+!sample.env
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+
+# Go workspace file
+go.work
+
+# IDE-specific files
+.idea/
+.vscode/
+
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+
+# Build output directory
+/build/
+
+# macOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+
+*.env
+!.env
